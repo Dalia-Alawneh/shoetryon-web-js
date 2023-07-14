@@ -25,7 +25,7 @@ console.log("Deepar version: " + deepar.version);
   const deepAR = await deepar.initialize({
     licenseKey: 'your_license_key_goes_here',
     canvas: canvas,
-    effect: 'effects/Shoe', // The shoe-try-on effect file.
+    effect: 'effects/Shoe.deepar', // The shoe-try-on effect file.
     additionalOptions: {
       // Use the front camera.
       cameraConfig: {
