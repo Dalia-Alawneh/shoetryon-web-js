@@ -35,6 +35,7 @@ module.exports = {
     maxAssetSize: 10000000,
   },
   devServer: {
+    allowedHosts: 'all',
     static: [
       {
         directory: path.join(__dirname, 'public')
